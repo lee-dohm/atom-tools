@@ -1,0 +1,9 @@
+<%= form_for @conn, version_path(@conn, :show), [as: :version], fn form -> %>
+  <div>
+    <%= textarea :version, :info %>
+  </div>
+
+  <div>
+    <%= submit "Verify" %>
+  </div>
+<% end %>

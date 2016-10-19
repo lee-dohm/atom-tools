@@ -1,0 +1,5 @@
+<div>
+  Atom Version: <%= @atom_version %><br/>
+  Electron Version: <%= @electron_version %><br/>
+  Actual Version: <%= @actual_version %>
+</div>
